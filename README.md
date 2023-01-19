@@ -6,6 +6,8 @@ https://docs.cloud.coinbase.com/sign-in-with-coinbase/docs/api-key-authenticatio
 
 https://api.coinbase.com/v2/
 
+
+``` python 
 # Requires python-requests. Install with pip or easy-install
 ##  Install with pip: pip install requests
 ##  Install with easy-install: easy_install requests
@@ -34,5 +36,5 @@ class CoinbaseWalletAuth(AuthBase):
             'CB-ACCESS-KEY': self.api_key,
         })
         return request
-
+``` 
 
